@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/bg-music-list.jpg); 
+	background-size: cover;
+    background-attachment:fixed;
+    font-family: 'Bad Script', cursive;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+   
+}
+.navbar {
+	width: 88%;
+	margin: auto;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 140px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: pink;
+	font-size: 20px;
+}
+.navbar ul li a:hover{
+	color: blue;
+}
+.submenu{
+	width: 150px;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+.navbar ul li:hover >ul {
+	color: blue;
+	opacity: 1;
+	visibility: visible;
+}
+.header h1{
+    background: rgba(231, 188, 188, 0.924);
+    text-align: center;
+    margin: 20px 0 20px;
+}
+.box div{
+    float: left;
+}
+.box div:first-child{
+    width: 300px;
+}
+.box div:last-child{
+    width: 700px;
+}
+.box img{
+    width: 300px;
+    height: 150px;
+}.box p{
+    color: white;
+    margin:30px 20px 0;
+    font-size: 18px;
+}
+.box audio{
+    width: 680px;
+    /* height: 200px; */
+    outline: none;
+    margin:20px 20px 40px;
+}

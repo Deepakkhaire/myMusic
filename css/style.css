@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/image.png); 
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	font-family: 'Bad Script', cursive;
+}
+.navbar {
+	width: 88%;
+	margin: auto;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 140px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #5f5f5f;
+	font-size: 20px;
+}
+.navbar ul li a:hover{
+	color: blue;
+}
+.submenu{
+	width: 150px;
+	position: absolute;
+	background: #b9e0dd;
+	opacity: 0;
+	visibility: hidden;
+}
+.navbar ul li:hover >ul {
+	color: blue;
+	opacity: 1;
+	visibility: visible;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 30%;	
+	overflow: hidden;
+}
+.left-col{
+	margin-left: 6%;
+}
+.left-col h1{
+	font-size: 70px;
+	color: #fff;
+	line-height: 110px;
+	float: left;
+}
+.right-col {
+	display: block;
+	/* justify-content: right; */
+	float: right;
+}
+ .right-col audio{
+	margin-top: 10px;
+	margin-left: 460px;
+}
+.right-col p{
+	margin-right: 160px;
+	margin-top: 80px;
+	color: #5f5f5f;
+	font-size: 18px;
+}
+

@@ -1,0 +1,24 @@
+body{
+    background-image: url(../images/images\ \(1\).jpg); 
+	background-size: cover;
+     background-attachment:fixed;
+}
+.video-box video{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.info{
+    float: right;
+}
+.header{
+    text-align: center;
+    background: aqua;
+    padding: 10px;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
